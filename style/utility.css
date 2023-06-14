@@ -1,0 +1,99 @@
+/*margin*/
+.ma-m {
+	margin: 16px;
+}
+
+.mx-xs {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.mx-s {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.mx-m {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.mx-l {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.mr-xs {
+	margin-right: 4px;
+}
+
+.mt-l {
+	margin-top: 32px;
+}
+
+.mb-xs {
+	margin-bottom: 4px;
+}
+
+.mb-l {
+	margin-bottom: 32px;
+}
+
+
+/*padding*/
+.pa-m {
+	padding: 16px;
+}
+
+.pa-l {
+	padding: 32px;
+}
+
+.px-m {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.px-l {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.pt-xl {
+	padding-top: 64px;
+}
+
+.pb-s {
+	padding-bottom: 8px;
+}
+
+/*other*/
+.align-center {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
+.flex-column {
+  flex: 50%;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.grid {
+	display: grid;
+ 	grid-template-columns: 40% 60%;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Website Personal Ilham Eka Prawira</title>
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/sidebar.css" />
+		<link rel="stylesheet" href="style/utility.css" />
+		<link rel="stylesheet" href="style/color.css" />
+		<link rel="stylesheet" href="style/typography.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container flex justify-space-between">
+					<div class="logo">
+						<img src="static/ILHAMEKA-Logo.png" width="150px">
+					</div>
+					<div class="menu flex mx-l">
+						<div class="mx-m">
+							<a class="menu-item" onclick="scrollToTargetAdjusted('Tentang')">Tentang</a>
+						</div>
+						<div class="mx-m">
+							<a class="menu-item" onclick="scrollToTargetAdjusted('Riwayat-Pendidikan')">Riwayat Pendidikan</a>
+						</div>
+						<div class="mx-m">
+							<a class="menu-item" onclick="scrollToTargetAdjusted('Game')">Hobiku</a>
+						</div>
+						<div class="mx-m">
+							<button class="openbtn" onclick="openNav()">Biodata</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="pt-xl">
+			<div class="container">
+				<div class="hero flex justify-center">
+					<div class="flex">
+						<div class="mx-l hero-wrapper-text">
+							<h1 class="hero-title">Selamat Datang di Website Profil Saya!</h1>
+							<p class="hero-subtitle">-Ilham Eka Prawira-</p>
+						</div>
+						<div class ="mt-l">
+							<img class="hero-profile" src="static/Hero-IMG.JPG">
+							<br><br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="color-2">
+				<div class="container pa-l flex justify-center">
+					<div class="section-wrapper mb-l">
+						<article>
+							<div class="about-me" id = Tentang>
+								<div class="content">
+								  	<h2>Tentang Saya</h2>
+									<p>Halo guys, perkenalkan nama saya Ilham Eka Prawira. Kalian semua bisa memanggil saya dengan apapun yang penting enak didengar. Saya lahir di Bandung pada tanggal 19 Maret 2003. Maka umur saya saat ini adalah 20 tahun. Saya adalah seseorang yang gemar menonton anime, membaca manga, bermain game, menonton vtuber, dan aktivitas wibu lainnya </p><br>
+									<p>Saat ini saya sedang menjalankan pendidikan di perguruan tinggi Kota Malang, Universitas Brawijaya dalam program studi S1 Pendidikan Teknologi Informasi, Fakultas Ilmu Komputer. Salam kenal, Arigatou Gozaimasu</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="container pa-l flex justify-center">
+					<div class="section-wrapper mb-l">
+						<article>
+							<h2 class="mb-l font-36" id="Riwayat-Pendidikan">Riwayat Pendidikan</h2>
+							<div class="grid mb-l">
+								<div class="mx-l">
+									<div class="image-wrapper">
+										<img class="rp-image" src="static/Riwayat Pendidikan/TKSDIPUMMULMUKMININ.JPG">
+									</div>
+									<div class="image-caption">
+										<h3>TK/SD Islam Plus Ummul Mukminin</h3>
+										<h3>Tahun 2010-2017</h3>
+								  	</div>
+								</div>
+								<div class="mx-l">
+									<div class="image-wrapper">
+										<img class="rp-image" src="static/Riwayat Pendidikan/SMPN1MARGAHAYU.jpg">
+									</div>
+									<div class="image-caption">
+										<h3>SMP Negeri 1 Margahayu</h3>
+										<h3>Tahun 2017-2019</h3>
+								  	</div>
+								</div>
+							</div>
+							<div class="grid mb-l">
+								<div class="mx-l">
+									<div class="image-wrapper">
+										<img class="rp-image" src="static/Riwayat Pendidikan/SMAN1SOREANG.jpg">
+									</div>
+									<div class="image-caption">
+										<h3>SMA Negeri 1 Soreang</h3>
+										<h3>Tahun 2019-2021</h3>
+								  	</div>
+								</div>
+								<div class="mx-l">
+									<div class="image-wrapper">
+										<img class="rp-image" src="static/Riwayat Pendidikan/UNIVERSITASBRAWIJAYA.jpg">
+									</div>
+								  	<div class="image-caption">
+										<h3>Universitas Brawijaya</h3>
+										<h3>Tahun 2021-Sekarang</h3>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="color-2">
+				<div class="container pa-l flex justify-center">
+					<div class="section-wrapper mb-l">
+						<article>
+							<h2 class="mb-l font-36" id="Game">Permainan Favoritku</h2>
+							<div class="flex mt-l">
+								<div class="mx-l">
+									<a href="https://genshin.hoyoverse.com/">
+										<img class="Game-image" src="static/Game/Genshin Impact.png" />
+									</a>
+									<p class="align-center font-20">Genshin Impact</p>
+								</div>
+								<div class="mx-l">
+									<a href="https://osu.ppy.sh/users/15225016/mania">
+										<img class="Game-image" src="static/Game/OSU!.png" />
+									</a>
+									<p class="align-center font-20">OSU! Mania</p>
+								</div>
+								<div class="mx-l">
+									<a href="https://honkaiimpact3.hoyoverse.com/">
+										<img class="Game-image" src="static/Game/Honkai Impact.png" />
+									</a>
+									<p class="align-center font-20">Honkai Impact</p>
+								</div>
+								<div class="mx-l">
+									<a href="https://www.konami.com/yugioh/duel_links/en/">
+										<img class="Game-image" src="static/Game/Yugioh Duel Links.jpg" />
+									</a>
+									<p class="align-center font-20">Yu-Gi-Oh! Duel Links</p>
+								</div>
+								<div class="mx-l">
+									<a href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=id&gl=US">
+										<img class="Game-image" src="static/Game/Mobile Legend.png" />
+									</a>
+									<p class="align-center font-20">Mobile Legends</p>
+								</div>
+								<div class="mx-l">
+									<a href="https://hsr.hoyoverse.com/id-id/home">
+										<img class="Game-image" src="static/Game/honkai-star-rail.png" />
+									</a>
+									<p class="align-center font-20">Honkai Star Rail</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</main>
+		<aside class="sidebar" id="sidebar">
+			<a href="#" class="closebtn" onclick="closeNav()">×</a>
+			<div class="mx-l">
+				<div class="profile-pic-wrapper">
+					<img class="profile-pic" src="static/Ilham-Bio.jpg">
+				</div>
+				<div>
+					<h2 class="align-center">Biodata</h2>
+				</div>
+				<div>
+					<p>Nama		: Ilham Eka Prawira</p>
+					<p>NIM		: 215150600111015</p>
+					<p>Prodi	: S1 Pedidikan Teknologi Informasi</p>
+					<p>Fakultas	: Ilmu Komputer</p>
+					<p>Kampus	: Universitas Brawijaya</p>
+					<p>Email	: myzerro911@gmail.com</p>
+					<p>Instagram: ilham_eka911</p>
+					<p>Phone	: +6283895007292</p>
+				</div>
+			</div>
+		</aside>	
+		<footer class="color-3">
+			<div class="container flex pa-m">
+				<div class="flex">
+				 	<div class="flex-column pa-m">
+				 		<h2>Tentang</h2>
+				 		<p>Seseorang manusia biasa yang sedang mencoba untuk terus berkembang</p>
+				  	</div>
+				  	<div class="flex flex-column justify-center pa-m">
+				  		<div>
+					  		<div class="flex mb-l">
+					  			<h2>Kontak Saya</h2>
+					  		</div>
+					  		<div class="flex mt-l">
+					  			<div class="mr-xs">
+					  				<a href="https://www.facebook.com/ilham.eka1" target="_blank"><img src="static/icon/facebook.png"></a>
+					  			</div>
+					  			<div class="mx-xs">
+					  				<a href="https://wa.me/6283895007292" target="_blank"><img src="static/icon/whatsapp.png"></a>
+					  			</div>
+					  			<div class="mx-xs">
+					  				<a href="https://github.com/Sakayanagi911" target="_blank"><img src="static/icon/github.png"></a>
+					  			</div>
+					  			<div class="mx-xs">
+					  				<a href="https://www.instagram.com/ilham_eka911/" target="_blank"><img src="static/icon/instagram.png"></a>
+					  			</div>
+					  			<div class="mx-xs">
+					  				<a href="mailto:myzerro911@gmail.com"><img src="static/icon/email.png"></a>
+					  			</div>
+					  		</div>
+					  	</div>
+				  	</div>
+				</div>
+				<div class="px-m">
+					<p>Copyright ©2023 All Right Reserved</p>
+				</div>
+			</div>
+		</footer>
+		<script src="script/script.js"></script>
+	</body>
+</html>
